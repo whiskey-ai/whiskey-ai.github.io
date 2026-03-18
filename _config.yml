@@ -1,25 +1,12 @@
-title: Nagymaros
-description: Jekyll theme for a conference website
-baseurl: /jekyll-nagymaros
-url: https://piazzai.github.io
+title: Whiskey AI
+description: Accelerating Food Fermentation and Beverage Ageing with Physics-Informed Edge AI to Reduce Environmental Impact
 
 permalink: pretty
-theme: jekyll-nagymaros
+remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@v4.0.1"
 
 home: /
 copyright: Place Holder
 indexing: true
 
-exclude:
-  - LICENSE
-  - README.md
-  - Gemfile
-  - vendor/
-
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-sass:
-  sourcemap: never
-  
+  - jekyll-include-cache
