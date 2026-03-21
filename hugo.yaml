@@ -1,0 +1,99 @@
+baseURL: https://whiskey-ai.github.io/
+languageCode: en-us
+title: Whiskey AI
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+theme: event
+sectionPagesMenu: main
+
+defaultContentLanguage: en
+languages:
+    en:
+        menus:
+            main:
+                - identifier: sessions
+                  pageRef: /sessions
+                  weight: 10
+                - identifier: code_of_conduct
+                  pageRef: /code-of-conduct
+                  weight: 20
+            footer:
+                - identifier: imprint
+                  pageRef: /imprint
+                  weight: 10
+            secondary:
+                - identifier: about
+                  pageRef: /about
+                  weight: 10
+                  params:
+                      description: |
+                          Provide menu item description here.
+
+params:
+    themes:
+        event:
+            title: Whiskey AI
+            # 👇 Fetch the ID of your event's API endpoint from
+            # 👇 https://sessionize.com/app/organizer/schedule/api/0
+            # 👇 and enter it here.
+            sessionizeId: mfac9a8j
+            shortTitle: Whiskey AI
+            startDate: 2026-07-02
+            endDate: 2026-07-03
+            location: Munich, Germany
+            address:
+                - Technical University of Munich (TUM)
+                - Freising Campus
+                - Munich
+                - Germany
+            map:
+                # 👇 Get an embeddable map URL from OpenStreetMap
+                # 👇 https://wiki.openstreetmap.org/wiki/Export#Embeddable_HTML
+                # 👇 or Google Maps
+                # 👇 https://developers.google.com/maps/documentation/embed/embedding-map
+                # 👇 and enter it here.
+                embeddableMapUrl:
+                # 👇 Enter a URL of a larger map representation (not required for Google Maps).
+                viewLargerMapUrl:
+            favicon: favicon.ico
+            images:
+                logo: images/logo-2026.png
+                titleBackground: images/banner-2026.png
+                # 👇 Image showcasing the building or venue where the event will take place.
+                location:
+            sponsors:
+                - logo:
+                  url:
+                  # 👇 This name is used as the alt text for the logo
+                  name: xxx
+            partners:
+                - logo:
+                  url:
+                  # 👇 This name is used as the alt text for the logo
+                  name: TUM
+            # 👇 List of Sessionize speaker IDs of speakers that organize the event.
+            organizers:
+            # 👇 List of Sessionize session IDs of highlight sessions.
+            featuredSessions:
+            colors:
+                primaryLighter: '#d7fb4d'
+                primary: '#c6eb4d'
+                primaryDarker: '#015a57'
+                primaryDarkest: '#111928'
+                secondary: '#f7f8fa'
+                secondaryDarker: '#637381'
+                track: '#015a57'
+                shadow: '#a6afc366'
+            # 👇 Name of the category in Sessionize that is used to group sessions.
+            trackCategoryTitle: Track
+            # 👇 Automatically redirects first-time visitors to the correct language version of the site
+            # 👇 based on their browser preferences (requires JavaScript).
+            # 👇 Set to false to disable (e.g., for demos, testing, or non-JS environments).
+            redirectBasedOnBrowserLang: false
+            # 👇 Controls whether a <meta name="generator"> tag is included in rendered HTML.
+            # 👇 This tag allows the theme to be discovered via search-engine queries without
+            # 👇 any telemetry, cookies, or remote beacons. Set to true to opt out.
+            disableGenerator: false

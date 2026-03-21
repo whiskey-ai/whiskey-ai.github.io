@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Whiskey AI</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Whiskey AI</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/code-of-conduct.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/code-of-conduct.de/</guid>
+      <description>&lt;h1 class=&#34;heading heading--1&#34; id=&#34;verhaltenskodex&#34;&gt;Verhaltens­kodex&lt;/h1&gt;&#xA;&lt;h2 class=&#34;heading heading--2&#34; id=&#34;zielsetzung&#34;&gt;Zielsetzung&lt;/h2&gt;&lt;p&gt;Alle Konferenzen und Gruppen, die sich auf diesen Verhaltenskodex beziehen, haben es sich als ein wichtiges Ziel gesetzt, die größtmögliche Anzahl an Beitragenden mit den vielfältigsten und unterschiedlichsten Hintergründen einzubeziehen. Wir sehen es als unsere Aufgabe, eine freundliche, sichere und einladende Umgebung zu schaffen, unabhängig von Geschlecht, sexueller Orientierung, Befähigung, Herkunft, Religion (oder deren Nichtvorhandensein) sowie gesellschaftlichem und wirtschaftlichem Status.&lt;/p&gt;&#xA;&lt;p&gt;Dieser Verhaltenskodex umreißt unsere Erwartungen an alle Beteiligten unserer Community, sowie die Konsequenzen für inakzeptables Verhalten.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/code-of-conduct/</guid>
+      <description>&lt;h1 class=&#34;heading heading--1&#34; id=&#34;code-of-conduct&#34;&gt;Code of Conduct&lt;/h1&gt;&#xA;&lt;h2 class=&#34;heading heading--2&#34; id=&#34;purpose&#34;&gt;Purpose&lt;/h2&gt;&lt;p&gt;A primary goal of all the conferences and user groups that refer to this Code of Conduct is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status and religion (or lack thereof).&lt;/p&gt;&#xA;&lt;p&gt;This Code of Conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Us</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Location</title>
+      <link>http://localhost:1313/location/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/location/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sponsors &amp; Partners</title>
+      <link>http://localhost:1313/sponsors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sponsors/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
