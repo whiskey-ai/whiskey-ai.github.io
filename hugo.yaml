@@ -17,20 +17,43 @@ languages:
                 - identifier: sessions
                   pageRef: /sessions
                   weight: 10
-                - identifier: code_of_conduct
-                  pageRef: /code-of-conduct
+                - identifier: cfp
+                  pageRef: /cfp
                   weight: 20
-            footer:
-                - identifier: imprint
-                  pageRef: /imprint
-                  weight: 10
-            secondary:
-                - identifier: about
-                  pageRef: /about
-                  weight: 10
-                  params:
-                      description: |
-                          Provide menu item description here.
+            # footer:
+            #     - identifier: Call for Papers
+            #       pageRef: /cfp
+            #       weight: 10
+            # secondary:
+            #     - identifier: about
+            #       pageRef: /about
+            #       weight: 10
+            #       params:
+            #           description: |
+            #               Provide menu item description here.
+
+        params:
+            themes:
+                event:
+                    slogan: 
+                    description: |
+                        ## From data to distillate: join WHISKEY-AI
+
+                        The **WHISKEY-AI Workshop 2026** explores a new frontier at the intersection of **artificial intelligence, physical modeling, and fermentation science**. As global demand for sustainable food and beverage production grows, traditional fermentation and ageing processes face increasing pressure to become faster, more efficient, and environmentally responsible.
+
+                        WHISKEY-AI focuses on leveraging **physics-informed machine learning and edge AI** to fundamentally rethink how we design, monitor, and optimize these processes. By embedding domain knowledge into data-driven models and deploying intelligence directly at the process edge, we can enable **real-time control, accelerated maturation, and reduced energy consumption**—without compromising product quality.
+
+                        This workshop brings together a multidisciplinary community spanning **AI, chemical and biochemical engineering, food science, instrumentation, and industry practice**. Through technical talks and discussion, we aim to bridge theory and application, highlighting both cutting-edge research and practical deployment in fermentation-driven industries such as brewing, distilling, and alternative proteins.
+
+                        Ultimately, WHISKEY-AI aims to catalyze a shift toward **smarter, greener, and more adaptive production systems**, where sustainability and innovation are not trade-offs, but co-optimized outcomes.
+                    directions: |
+                        Directions for getting to the location using public transportation. 
+                        Customize this placeholder text in your Hugo configuration file or remove it if not needed.
+                    # 👇 This field provides an introduction or overview about the event or organization.
+                    # You can customize it to describe the event, highlight key aspects, or leave any important message.
+                    # Markdown formatting is supported, allowing you to add links, bold text, and more.
+                    aboutUs: |
+                        More information about the event will be added soon. Stay tuned! 🎉
 
 params:
     themes:
@@ -59,6 +82,8 @@ params:
                 # 👇 Enter a URL of a larger map representation (not required for Google Maps).
                 viewLargerMapUrl:
             favicon: favicon.ico
+            callToAction:
+                enableBanner: false
             images:
                 logo: images/logo-2026.png
                 titleBackground: images/banner-2026.png
