@@ -14,12 +14,15 @@ languages:
     en:
         menus:
             main:
+                - identifier: Organisers
+                  pageRef: /about
+                  weight: 10
                 - identifier: sessions
                   pageRef: /sessions
-                  weight: 10
+                  weight: 20
                 - identifier: cfp
                   pageRef: /cfp
-                  weight: 20
+                  weight: 15
             # footer:
             #     - identifier: Call for Papers
             #       pageRef: /cfp
@@ -53,7 +56,9 @@ languages:
                     # You can customize it to describe the event, highlight key aspects, or leave any important message.
                     # Markdown formatting is supported, allowing you to add links, bold text, and more.
                     aboutUs: |
-                        More information about the event will be added soon. Stay tuned! 🎉
+                        The WHISKEY-AI organising committee brings together a multidisciplinary team from Imperial College London, the Technical University of Munich, and Politecnico di Milano. The committee brings deep technical expertise in artificial intelligence, chemical and biochemical engineering, sensory science, and hardware acceleration for machine learning, along with applied industry insight. Their collective focus is on advancing fermentation and ageing processes through physics-informed AI, real-time sensing, and sustainable system design, bridging cutting-edge research with practical innovation in food and beverage production.
+
+                        ###
 
 params:
     themes:
@@ -101,6 +106,7 @@ params:
                   name: TUM
             # 👇 List of Sessionize speaker IDs of speakers that organize the event.
             organizers:
+                - 1815ca76-786b-4de7-8241-50ffe405e9c7
             # 👇 List of Sessionize session IDs of highlight sessions.
             featuredSessions:
             colors:
