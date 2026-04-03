@@ -107,6 +107,9 @@ params:
             # 👇 List of Sessionize speaker IDs of speakers that organize the event.
             organizers:
                 - 1815ca76-786b-4de7-8241-50ffe405e9c7
+                - 11a22672-6492-4c8b-826e-c74bc6340279
+                - 90dcadef-60c7-4675-9230-522b17b9e632
+                - 3caaa6cd-7bee-4d19-8481-d87e1a8d50c2
             # 👇 List of Sessionize session IDs of highlight sessions.
             featuredSessions:
             colors:
