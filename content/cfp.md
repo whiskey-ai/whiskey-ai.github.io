@@ -44,8 +44,8 @@ Interested speakers should submit:
 
 📧 Submissions should be sent via: https://sessionize.com/whiskey-ai-2026/
 
-**Submission Deadline:** [insert deadline]  
-**Notification of Acceptance:** [insert date]
+**Submission Deadline:** 31st of May 2026, end of day anywhere on earth
+**Notification of Acceptance:** 7th of June 2026, end of day anywhere on earth
 
 ## Important Notes
 
