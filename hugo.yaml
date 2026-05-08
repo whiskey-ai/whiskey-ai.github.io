@@ -129,15 +129,19 @@ params:
                 # 👇 Image showcasing the building or venue where the event will take place.
                 location:
             sponsors:
-                - logo:
-                  url:
+                - logo: images/tum.png
+                  url: https://www.tum.de/en/
                   # 👇 This name is used as the alt text for the logo
-                  name: xxx
+                  name: Technical University of Munich 
+                - logo: images/lsb.png
+                  url: https://www.leibniz-lsb.de/en/
+                  # 👇 This name is used as the alt text for the logo
+                  name: Leibniz Institute for Food Systems Biology
             partners:
-                - logo:
+                - logo: 
                   url:
                   # 👇 This name is used as the alt text for the logo
-                  name: TUM
+                  name: 
             # 👇 List of Sessionize speaker IDs of speakers that organize the event.
             organizers:
                 - 1815ca76-786b-4de7-8241-50ffe405e9c7
