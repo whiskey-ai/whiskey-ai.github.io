@@ -59,6 +59,9 @@ languages:
                 - identifier: sessions
                   pageRef: /sessions
                   weight: 10
+                - identifier: speakers
+                  pageRef: /speakers
+                  weight: 10
             # secondary:
             #     - identifier: about
             #       pageRef: /about
@@ -70,20 +73,20 @@ languages:
         params:
             themes:
                 event:
-                    slogan: 
+                    slogan: "From data to distillate"
                     description: |
-                        ## From data to distillate: join WHISKEY-AI
-
                         The WHISKEY-AI Workshop 2026 explores emerging approaches to advancing fermentation, maturation, and process engineering in food and beverage systems. As global demand grows for sustainable and high-quality production, traditional practices are increasingly being re-examined through the combined lenses of chemical engineering, food science, chemistry, and data-enabled methods.
 
                         This workshop focuses on how **fundamental understanding**—spanning reaction engineering, transport phenomena, microbiology, and sensory science—can be integrated with modern computational tools, including machine learning and physics-informed modeling, as well as advanced measurement and sensing technologies, to improve process design, monitoring, and control. The emphasis is on combining **mechanistic insight** with practical implementation to address real-world challenges in fermentation-driven systems.
 
                         We particularly encourage contributions that **bridge disciplines**, bringing together experimental work, first-principles and hybrid modeling, and data-centric approaches. Topics of interest include fermentation optimization, ageing and maturation dynamics, process intensification, inline and at-line sensing, and sustainable production strategies, alongside innovations in process control and industrial deployment.
 
-                        The workshop aims to bring together a diverse community of researchers and practitioners across food science, chemical and biochemical engineering, biotechnology, instrumentation, and industry. Through technical presentations and discussion, we seek to connect theory and practice, highlighting both fundamental advances and real-world implementations in sectors such as brewing, distilling, and alternative proteins.
+                        Originally conceived as a bold and highly interdisciplinary idea during the [European Talent Academy (#ETA2025)](https://www.imperial.ac.uk/admin-services/international-relations/european-talent-academy/), WHISKEY-AI has since evolved into a funded workshop that brings together researchers and practitioners working at the intersection of fermentation, beverage aging, food technology, sensory science, food chemistry, and artificial intelligence. The co-organizers [Melanie Köhler](https://whiskey-ai.github.io/speakers/melanie-k%C3%B6hler-3caaa6cd-7bee-4d19-8481-d87e1a8d50c2/), [Fabio Pizzetti](https://whiskey-ai.github.io/speakers/fabio-pizzetti-90dcadef-60c7-4675-9230-522b17b9e632/), [Ovidiu Șerban](https://whiskey-ai.github.io/speakers/ovidiu-serban-1815ca76-786b-4de7-8241-50ffe405e9c7/), and [Davide Conficconi](https://whiskey-ai.github.io/speakers/davide-conficconi-11a22672-6492-4c8b-826e-c74bc6340279/), will look forward to two inspiring days of discussion and exchange on how data-driven and physics-informed approaches can help rethink fermentation and aging processes in more sustainable and adaptable ways.
+
+                        The workshop aims to connect a diverse community spanning food science, chemical and biochemical engineering, biotechnology, instrumentation, and industry. Through technical presentations and open discussion, we seek to bridge theory and practice, highlighting both fundamental advances and real-world implementations in sectors such as brewing, distilling, and alternative proteins.
 
                         Ultimately, WHISKEY-AI 2026 aims to support the development of efficient, adaptable, and sustainable production systems, where innovation is driven by cross-disciplinary collaboration and where digital and physical approaches are integrated to co-optimize performance and sustainability.
-                    
+
                     directions: |
                         #### By Public Transportation
                          
