@@ -30,25 +30,35 @@ languages:
     en:
         menus:
             main:
-                - identifier: Organisers
-                  pageRef: /about
-                  weight: 10
+                - identifier: cfp
+                  pageRef: /cfp
+                  weight: 5
+                - identifier: Participants
+                  pageRef: /participants
+                  weight: 6
+                - identifier: Provisional Schedule
+                  pageRef: /expect
+                  weight: 7
+                # - identifier: Organisers
+                #   pageRef: /about
+                #   weight: 10
                 - identifier: Location
                   pageRef: /location
                   weight: 11
                 - identifier: Hotels
                   pageRef: /hotels
                   weight: 12
+                # - identifier: sessions
+                #   pageRef: /sessions
+                #   weight: 20
+                
+            footer:
+                - identifier: About
+                  pageRef: /about
+                  weight: 10
                 - identifier: sessions
                   pageRef: /sessions
-                  weight: 20
-                - identifier: cfp
-                  pageRef: /cfp
-                  weight: 5
-            # footer:
-            #     - identifier: Call for Papers
-            #       pageRef: /cfp
-            #       weight: 10
+                  weight: 10
             # secondary:
             #     - identifier: about
             #       pageRef: /about
