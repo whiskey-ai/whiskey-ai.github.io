@@ -33,15 +33,15 @@ languages:
                 - identifier: cfp
                   pageRef: /cfp
                   weight: 45
-                # - identifier: Participants
-                #   pageRef: /participants
-                #   weight: 6
+                - identifier: Participants
+                  pageRef: /participants
+                  weight: 44
                 # - identifier: Provisional Schedule
                 #   pageRef: /expect
                 #   weight: 7
-                # - identifier: Organisers
-                #   pageRef: /about
-                #   weight: 10
+                - identifier: Organisers
+                  pageRef: /about
+                  weight: 10
                 - identifier: Location
                   pageRef: /location
                   weight: 11
