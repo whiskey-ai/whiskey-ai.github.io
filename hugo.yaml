@@ -32,13 +32,13 @@ languages:
             main:
                 - identifier: cfp
                   pageRef: /cfp
-                  weight: 5
-                - identifier: Participants
-                  pageRef: /participants
-                  weight: 6
-                - identifier: Provisional Schedule
-                  pageRef: /expect
-                  weight: 7
+                  weight: 45
+                # - identifier: Participants
+                #   pageRef: /participants
+                #   weight: 6
+                # - identifier: Provisional Schedule
+                #   pageRef: /expect
+                #   weight: 7
                 # - identifier: Organisers
                 #   pageRef: /about
                 #   weight: 10
@@ -48,9 +48,12 @@ languages:
                 - identifier: Hotels
                   pageRef: /hotels
                   weight: 12
-                # - identifier: sessions
-                #   pageRef: /sessions
-                #   weight: 20
+                - identifier: sessions
+                  pageRef: /sessions
+                  weight: 1
+                - identifier: speakers
+                  pageRef: /speakers
+                  weight: 2
                 
             footer:
                 - identifier: About
