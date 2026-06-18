@@ -1,6 +1,7 @@
 baseURL: https://whiskey-ai.github.io/
 languageCode: en-us
 title: Whiskey AI
+timeZone: Europe/Berlin
 
 caches:
   images:
